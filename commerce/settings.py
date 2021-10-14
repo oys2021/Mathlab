@@ -142,3 +142,10 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"static/img")
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#Email Settings
+EMAIL_HOST="smtp.gmail.com"
+EMAIL_PORT="587"
+EMAIL_HOST_USER="yawsarfo2019@gmail.com"
+EMAIL_HOST_PASSWORD="yaw20sarfo19"
+EMAIL_USE_TLS=True
